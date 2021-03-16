@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Satrabel.Abp.Theme.CoreUI</id>
+    <version>1.0.0</version>
+    <authors>Satrabel.Abp.Theme.CoreUI</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>AbpCoreUITheme</description>
+    <repository url="https://github.com/sachatrauwaen/AbpCoreUITheme" />
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy" version="4.0.0" exclude="Build,Analyzers" />
+        <dependency id="Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared" version="4.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/net5.0/nuget.config" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="c:\sacha\dotnet\AbpCoreUITheme\src\Satrabel.Abp.Theme.CoreUI\bin\Release\net5.0\Satrabel.Abp.Theme.CoreUI.dll" target="lib\net5.0\Satrabel.Abp.Theme.CoreUI.dll" />
+    <file src="c:\sacha\dotnet\AbpCoreUITheme\src\Satrabel.Abp.Theme.CoreUI\nuget.config" target="content\nuget.config" />
+    <file src="c:\sacha\dotnet\AbpCoreUITheme\src\Satrabel.Abp.Theme.CoreUI\nuget.config" target="contentFiles\any\net5.0\nuget.config" />
+  </files>
+</package>

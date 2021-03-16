@@ -1,0 +1,21 @@
+﻿@using System.Linq
+@using Microsoft.AspNetCore.Http.Extensions
+@using Satrabel.Abp.Theme.CoreUI.Themes.CoreUI.Components.Toolbar.LanguageSwitch
+@model LanguageSwitchViewComponentModel
+@if (Model.OtherLanguages.Any())
+{
+
+    <li class="nav-item dropdown" style="margin:0 1em;">
+
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-globe" aria-hidden="true"></i> @Model.CurrentLanguage.DisplayName
+        </a>
+
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+            @foreach (var language in Model.OtherLanguages)
+            {
+                <a class="dropdown-item" href="/Abp/Languages/Switch?culture=@(language.CultureName)&uiCulture=@(language.UiCultureName)&returnUrl=@(System.Net.WebUtility.UrlEncode(Context.Request.GetEncodedPathAndQuery()))">@language.DisplayName</a>
+            }
+        </div>
+    </li>
+}

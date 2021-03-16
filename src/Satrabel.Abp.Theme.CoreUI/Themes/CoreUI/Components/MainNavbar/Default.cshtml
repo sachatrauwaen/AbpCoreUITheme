@@ -1,0 +1,11 @@
+﻿@using Satrabel.Abp.Theme.CoreUI.Themes.CoreUI.Components.Brand
+@using Satrabel.Abp.Theme.CoreUI.Themes.CoreUI.Components.Menu
+@using Satrabel.Abp.Theme.CoreUI.Themes.CoreUI.Components.Toolbar
+
+
+<nav class="sidebar-nav">
+    <ul class="nav">
+        @(await Component.InvokeAsync<MainNavbarMenuViewComponent>())
+    </ul>
+</nav>
+

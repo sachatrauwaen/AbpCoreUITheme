@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Satrabel.Abp.Theme.CoreUI", "src\Satrabel.Abp.Theme.CoreUI\Satrabel.Abp.Theme.CoreUI.csproj", "{B18ACBE3-69C5-45F7-B98D-77540F7490AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B18ACBE3-69C5-45F7-B98D-77540F7490AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B18ACBE3-69C5-45F7-B98D-77540F7490AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B18ACBE3-69C5-45F7-B98D-77540F7490AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B18ACBE3-69C5-45F7-B98D-77540F7490AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93BC4547-2648-4784-9346-85ACAC28F18F}
+	EndGlobalSection
+EndGlobal
