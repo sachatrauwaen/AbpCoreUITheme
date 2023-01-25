@@ -15,8 +15,8 @@
     <PackageDescription>AbpCoreUITheme</PackageDescription>
     <RepositoryUrl>https://github.com/sachatrauwaen/AbpCoreUITheme</RepositoryUrl>
     <Version>3.0.0</Version>
-    <AssemblyVersion>2.0.0.0</AssemblyVersion>
-    <FileVersion>2.0.0.0</FileVersion>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+    <FileVersion>3.0.0.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
