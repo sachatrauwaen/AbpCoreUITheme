@@ -10380,6 +10380,7 @@ a.text-dark:hover, a.text-dark:focus {
   vertical-align: top;
 }
 
+/*
 .breadcrumb-menu .btn {
   padding: 0 0.75rem;
   color: #73818f;
@@ -10396,6 +10397,8 @@ a.text-dark:hover, a.text-dark:focus {
   color: #23282c;
   background: transparent;
 }
+
+*/
 
 .breadcrumb-menu .dropdown-menu {
   min-width: 180px;
