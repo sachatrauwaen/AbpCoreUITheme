@@ -18,6 +18,8 @@ namespace Satrabel.Abp.Theme.CoreUI
                     return "~/Themes/CoreUI/Layouts/Application.cshtml";
                 case StandardLayouts.Account:
                     return "~/Themes/CoreUI/Layouts/Account.cshtml";
+                case StandardLayouts.Public:
+                    return "~/Themes/CoreUI/Layouts/Application.cshtml";
                 case StandardLayouts.Empty:
                     return "~/Themes/CoreUI/Layouts/Empty.cshtml";
                 default:
