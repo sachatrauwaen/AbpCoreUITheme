@@ -52,4 +52,5 @@ Mkfile.old
 dkms.conf
 .vs/
 /src/Satrabel.Abp.Theme.CoreUI/obj
+/src/Satrabel.Abp.Theme.CoreUI/bin
 /src/Satrabel.Abp.Theme.CoreUI/obj/Debug/net5.0/Satrabel.Abp.Theme.CoreUI.GeneratedMSBuildEditorConfig.editorconfig
